@@ -1,0 +1,91 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #141414;
+}
+.navbar-brand img {
+  position: relative;
+  left: -12px;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+.navbar-nav {
+  font-weight: 600;
+}
+
+.btn-dark {
+  color: white;
+  background-color: black;
+}
+
+/* .heading-icons {
+  display: inline-block;
+  vertical-align: middle;
+} */
+
+.heading-icons div {
+  vertical-align: middle;
+  padding: 6px 11px;
+}
+
+/* @media (min-width: 576px) {
+  .heading-icons {
+    position: absolute;
+    right: 0;
+  }
+} */
+/* 
+.myRow {
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.myRow .col-2 {
+  padding-right: 20px;
+  padding-left: 20px;
+} */
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 0.9rem;
+}
+
+.carousel-control-prev {
+  left: -0.9rem;
+}
+.carousel-control-next {
+  right: -0.9rem;
+}
+
+@media (min-width: 768px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 20px;
+  }
+
+  .carousel-control-prev {
+    left: -20px;
+  }
+  .carousel-control-next {
+    right: -20px;
+  }
+}
+
+footer {
+  font-size: 0.8rem;
+  padding: 4rem 0;
+}
+
+footer .bi {
+  font-size: 1.5rem;
+}
+
+footer button {
+  font-size: 0.8rem !important;
+}
+
+footer .copyright {
+  font-size: 0.75rem;
+}
