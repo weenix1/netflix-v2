@@ -32,9 +32,9 @@ const MovieDetails = ({ match }) => {
 
   return (
     <div className="mt-5 text-white">
-      {movieItem && (
-        <Container>
-          <Row>
+      <Container>
+        <Row justify-content-center>
+          {movieItem && (
             <Col>
               <img className="img-fluid" src={movieItem.Poster} />
               <div className="card-body">
@@ -42,9 +42,9 @@ const MovieDetails = ({ match }) => {
                 <div className="card-text">{movieItem.Plot}</div>
               </div>
             </Col>
-          </Row>
-        </Container>
-      )}
+          )}
+        </Row>
+      </Container>
     </div>
   );
 };
