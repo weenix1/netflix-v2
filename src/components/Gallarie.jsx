@@ -3,7 +3,7 @@ import MyMovies from "./MyMovies";
 
 class Gallarie extends React.Component {
   state = {
-    movieTitle: "batman",
+    movieTitle: "Harry Potter",
   };
 
   render() {

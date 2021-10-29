@@ -10,15 +10,15 @@ class MyMovies extends Component {
   fetchMovies = async () => {
     try {
       let response = await fetch(
-        "http://www.omdbapi.com/?i=tt3896198&apikey=11b186c9&s=" +
-          this.props.query
+        "http://localhost:3002/media"
+        /*    "http://localhost:3002/media/&s=" + this.props.query */
       );
       if (response.ok) {
         let data = await response.json();
         console.log("HERE IS MY DATA", data);
 
         this.setState({
-          movies: data.Search,
+          movies: data,
         });
 
         // the comment has been sent succesfully!!
